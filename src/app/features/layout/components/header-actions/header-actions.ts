@@ -3,7 +3,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterLink } from '@angular/router';
 import { MatBadge } from '@angular/material/badge';
-import { EcommerceStore } from '../../ecommerce-store';
+import { EcommerceStore } from '../../../../ecommerce-store';
 
 @Component({
   selector: 'app-header-actions',

@@ -10,10 +10,13 @@ import {
 } from '@ngrx/signals';
 import { produce } from 'immer';
 import { Toaster } from './services/toaster';
+import { CartItem } from './models/cartItem';
+
 export type EcommerceState = {
   products: Product[];
   category: string;
   wishlistItems: Product[];
+  cartItems: CartItem[];
 };
 
 const initialState: EcommerceState = {
@@ -166,6 +169,7 @@ const initialState: EcommerceState = {
   ],
   category: 'all',
   wishlistItems: [],
+  cartItems: [],
 };
 
 export const EcommerceStore = signalStore(
@@ -173,7 +177,7 @@ export const EcommerceStore = signalStore(
     providedIn: 'root',
   },
   withState(initialState),
-  withComputed(({ category, products, wishlistItems }) => ({
+  withComputed(({ category, products, wishlistItems, cartItems }) => ({
     filteredProducts: computed(() => {
       const currentCategory = category();
       if (currentCategory === 'all') return products();
@@ -182,6 +186,7 @@ export const EcommerceStore = signalStore(
       );
     }),
     wishlistCount: computed(() => wishlistItems().length),
+    cartCount: computed(() => cartItems().reduce((total, item) => total + item.quantity, 0)),
   })),
   withMethods((store, toaster = inject(Toaster)) => ({
     setCategory: signalMethod<string>((category: string) => {
@@ -207,7 +212,21 @@ export const EcommerceStore = signalStore(
 
     clearWishlist: () => {
       patchState(store, { wishlistItems: [] });
-    }
-    
+    },
+
+    addToCart: (product: Product, quantity: 1) => {
+      const existingItemIndex = store
+        .cartItems()
+        .findIndex((item) => item.product.id === product.id);
+      const updatedCartItems = produce(store.cartItems(), (draft) => {
+        if (existingItemIndex >= 0) {
+          draft[existingItemIndex].quantity += quantity;
+        } else {
+          draft.push({ product, quantity });
+        }
+      });
+      patchState(store, { cartItems: updatedCartItems });
+      toaster.success(existingItemIndex >= 0 ? 'Product quantity updated in cart' : 'Product added to cart');
+    },
   })),
 );

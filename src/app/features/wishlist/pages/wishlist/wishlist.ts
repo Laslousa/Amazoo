@@ -1,10 +1,10 @@
 import { Component, inject } from '@angular/core';
-import { BackButton } from "../back-button/back-button";
-import { EcommerceStore } from '../../ecommerce-store';
-import { ProductCard } from "../product-card/product-card";
+import { BackButton } from '../../../../shared/components/back-button/back-button';
+import { EcommerceStore } from '../../../../ecommerce-store';
+import { ProductCard } from '../../../../shared/components/product-card/product-card';
 import { MatIcon } from "@angular/material/icon";
 import { MatButton, MatIconButton } from '@angular/material/button';
-import { EmptyWishlist } from './empty-wishlist/empty-wishlist';
+import { EmptyWishlist } from '../../components/empty-wishlist/empty-wishlist';
 
 @Component({
   selector: 'app-wishlist',
