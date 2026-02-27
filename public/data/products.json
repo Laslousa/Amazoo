@@ -1312,5 +1312,735 @@
         "reviewDate": "2024-04-27T00:00:00.000Z"
       }
     ]
+  },
+  {
+    "id": "19",
+    "name": "Smartwatch GPS Pro",
+    "description": "1.78-inch AMOLED smartwatch with heart-rate tracking, built-in GPS, and up to 7-day battery life",
+    "price": 249.99,
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&w=400&q=80",
+    "rating": 4.6,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "electronics",
+    "reviews": [
+      {
+        "id": "19-1",
+        "productId": "19",
+        "userName": "Lena Brooks",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+        "rating": 5,
+        "title": "Excellent fitness companion",
+        "comment": "GPS tracking is accurate and the heart-rate data is consistent during runs. Battery lasts several days.",
+        "reviewDate": "2024-05-02T00:00:00.000Z"
+      },
+      {
+        "id": "19-2",
+        "productId": "19",
+        "userName": "Tyler Hayes",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+        "rating": 4,
+        "title": "Great screen and smooth UI",
+        "comment": "The AMOLED display is bright outdoors and menus are responsive. Setup with my phone was quick.",
+        "reviewDate": "2024-05-10T00:00:00.000Z"
+      },
+      {
+        "id": "19-3",
+        "productId": "19",
+        "userName": "Mia Grant",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
+        "rating": 5,
+        "title": "Reliable daily smartwatch",
+        "comment": "Notifications, workouts, and sleep tracking all work well. Very comfortable strap for all-day wear.",
+        "reviewDate": "2024-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "19-4",
+        "productId": "19",
+        "userName": "Ethan Walsh",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
+        "rating": 4,
+        "title": "Good value for features",
+        "comment": "For this price, the GPS and health features are impressive. Charging speed is decent too.",
+        "reviewDate": "2024-05-24T00:00:00.000Z"
+      },
+      {
+        "id": "19-5",
+        "productId": "19",
+        "userName": "Chloe Reeves",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/15.jpg",
+        "rating": 5,
+        "title": "Perfect for training",
+        "comment": "I use it for interval workouts and cycling. Activity summaries are clear and easy to understand.",
+        "reviewDate": "2024-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "19-6",
+        "productId": "19",
+        "userName": "Noah Price",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/16.jpg",
+        "rating": 4,
+        "title": "Solid all-around watch",
+        "comment": "Build quality feels premium and software updates have improved performance since I bought it.",
+        "reviewDate": "2024-06-07T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Mechanical Gaming Keyboard",
+    "description": "RGB mechanical gaming keyboard with tactile switches, low-latency response, and durable USB-C connectivity",
+    "price": 139.99,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?auto=format&w=400&q=80",
+    "rating": 4.7,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "electronics",
+    "reviews": [
+      {
+        "id": "20-1",
+        "productId": "20",
+        "userName": "Avery Hunt",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/17.jpg",
+        "rating": 5,
+        "title": "Fantastic typing feel",
+        "comment": "Switches are crisp and satisfying for both gaming and work. Stabilizers are surprisingly smooth.",
+        "reviewDate": "2024-05-03T00:00:00.000Z"
+      },
+      {
+        "id": "20-2",
+        "productId": "20",
+        "userName": "Logan Hart",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/18.jpg",
+        "rating": 5,
+        "title": "Great RGB customization",
+        "comment": "Lighting effects look great and software is easy to use. Per-key controls are very detailed.",
+        "reviewDate": "2024-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "20-3",
+        "productId": "20",
+        "userName": "Nora Collins",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/19.jpg",
+        "rating": 4,
+        "title": "Excellent for productivity too",
+        "comment": "Key layout is comfortable and consistent. I type faster on this than my previous keyboard.",
+        "reviewDate": "2024-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "20-4",
+        "productId": "20",
+        "userName": "Caleb Stone",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/20.jpg",
+        "rating": 5,
+        "title": "Premium build quality",
+        "comment": "Aluminum top plate feels sturdy and there is no flex. Included cable is also very high quality.",
+        "reviewDate": "2024-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "20-5",
+        "productId": "20",
+        "userName": "Ruby Lane",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/21.jpg",
+        "rating": 4,
+        "title": "Great sound profile",
+        "comment": "Nice thocky sound without being too loud. Hot-swap sockets worked perfectly with my spare switches.",
+        "reviewDate": "2024-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "20-6",
+        "productId": "20",
+        "userName": "Jack Dean",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/22.jpg",
+        "rating": 5,
+        "title": "Best keyboard in this range",
+        "comment": "After comparing several options, this one had the best feel and features for the price.",
+        "reviewDate": "2024-06-09T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Wireless Charging Stand 3-in-1",
+    "description": "Foldable wireless charging stand designed for phone, earbuds, and smartwatch with stable non-slip base",
+    "price": 89.99,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1680623396167-a5f265a2fd49?auto=format&w=400&q=80",
+    "rating": 4.5,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "electronics",
+    "reviews": [
+      {
+        "id": "21-1",
+        "productId": "21",
+        "userName": "Maya Ellis",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/23.jpg",
+        "rating": 5,
+        "title": "Cleans up my desk setup",
+        "comment": "Charges all my devices in one place and reduced cable clutter immediately. Very practical.",
+        "reviewDate": "2024-05-04T00:00:00.000Z"
+      },
+      {
+        "id": "21-2",
+        "productId": "21",
+        "userName": "Owen Ford",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/24.jpg",
+        "rating": 4,
+        "title": "Fast and stable charging",
+        "comment": "Phone reaches full battery quickly and does not overheat. The stand is stable on my nightstand.",
+        "reviewDate": "2024-05-12T00:00:00.000Z"
+      },
+      {
+        "id": "21-3",
+        "productId": "21",
+        "userName": "Ivy Bennett",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/25.jpg",
+        "rating": 4,
+        "title": "Travel-friendly design",
+        "comment": "Folds easily for trips and takes very little space in my bag. Build feels durable.",
+        "reviewDate": "2024-05-20T00:00:00.000Z"
+      },
+      {
+        "id": "21-4",
+        "productId": "21",
+        "userName": "Miles Porter",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/26.jpg",
+        "rating": 5,
+        "title": "Perfect bedside charger",
+        "comment": "I can charge phone and watch overnight in one spot. Indicator light is subtle and not distracting.",
+        "reviewDate": "2024-05-28T00:00:00.000Z"
+      },
+      {
+        "id": "21-5",
+        "productId": "21",
+        "userName": "Ella Nash",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/27.jpg",
+        "rating": 4,
+        "title": "Good quality for the price",
+        "comment": "Materials feel solid and charging speed is consistent. Setup was plug-and-play.",
+        "reviewDate": "2024-06-03T00:00:00.000Z"
+      },
+      {
+        "id": "21-6",
+        "productId": "21",
+        "userName": "Liam Park",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/28.jpg",
+        "rating": 5,
+        "title": "Very convenient daily use",
+        "comment": "One of the most useful desk accessories I have bought this year. Works exactly as advertised.",
+        "reviewDate": "2024-06-10T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Merino Wool Crewneck Sweater",
+    "description": "Merino wool crewneck sweater with soft knit texture, breathable warmth, and clean everyday silhouette",
+    "price": 79.99,
+    "imageUrl": "https://images.unsplash.com/photo-1588271968087-4c51abe05afc?auto=format&w=400&q=80",
+    "rating": 4.6,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "clothing",
+    "reviews": [
+      {
+        "id": "22-1",
+        "productId": "22",
+        "userName": "Grace Vaughn",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/29.jpg",
+        "rating": 5,
+        "title": "Soft and comfortable",
+        "comment": "Merino fabric feels premium and does not itch. Keeps me warm without feeling heavy.",
+        "reviewDate": "2024-05-05T00:00:00.000Z"
+      },
+      {
+        "id": "22-2",
+        "productId": "22",
+        "userName": "Henry Cole",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/30.jpg",
+        "rating": 4,
+        "title": "Great layering piece",
+        "comment": "Works well over shirts and under jackets. Fit is modern and true to size.",
+        "reviewDate": "2024-05-13T00:00:00.000Z"
+      },
+      {
+        "id": "22-3",
+        "productId": "22",
+        "userName": "Sophie Reed",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/31.jpg",
+        "rating": 5,
+        "title": "Excellent quality knit",
+        "comment": "Stitching and finish look very clean. Still looks new after several washes on delicate cycle.",
+        "reviewDate": "2024-05-21T00:00:00.000Z"
+      },
+      {
+        "id": "22-4",
+        "productId": "22",
+        "userName": "Blake Turner",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/32.jpg",
+        "rating": 4,
+        "title": "Polished casual style",
+        "comment": "Easy to dress up or down. Color is exactly like the product photos.",
+        "reviewDate": "2024-05-29T00:00:00.000Z"
+      },
+      {
+        "id": "22-5",
+        "productId": "22",
+        "userName": "Zoe Harper",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/33.jpg",
+        "rating": 5,
+        "title": "Perfect for cooler weather",
+        "comment": "Breathes well indoors and keeps warmth outside. It has become a staple in my wardrobe.",
+        "reviewDate": "2024-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "22-6",
+        "productId": "22",
+        "userName": "Wyatt Quinn",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/34.jpg",
+        "rating": 4,
+        "title": "Good value merino sweater",
+        "comment": "Quality is better than expected at this price. I am planning to buy another color.",
+        "reviewDate": "2024-06-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Slim Fit Chino Pants",
+    "description": "Stretch cotton chino pants with slim fit cut and wrinkle-resistant finish for daily wear",
+    "price": 64.99,
+    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&w=400&q=80",
+    "rating": 4.5,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "clothing",
+    "reviews": [
+      {
+        "id": "23-1",
+        "productId": "23",
+        "userName": "Lily Knox",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/35.jpg",
+        "rating": 5,
+        "title": "Great fit and comfort",
+        "comment": "The slim fit is flattering without being too tight. Stretch fabric makes them very comfortable.",
+        "reviewDate": "2024-05-06T00:00:00.000Z"
+      },
+      {
+        "id": "23-2",
+        "productId": "23",
+        "userName": "Ryan Moss",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/36.jpg",
+        "rating": 4,
+        "title": "Excellent office pants",
+        "comment": "Looks clean with dress shoes and also works casually with sneakers. Versatile piece.",
+        "reviewDate": "2024-05-14T00:00:00.000Z"
+      },
+      {
+        "id": "23-3",
+        "productId": "23",
+        "userName": "Aria Kim",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/37.jpg",
+        "rating": 4,
+        "title": "Holds shape well",
+        "comment": "After full-day wear, fabric still looks neat and does not bag out at the knees.",
+        "reviewDate": "2024-05-22T00:00:00.000Z"
+      },
+      {
+        "id": "23-4",
+        "productId": "23",
+        "userName": "Cole Rivers",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/38.jpg",
+        "rating": 5,
+        "title": "True to size",
+        "comment": "Sizing chart was accurate and length is spot on. Easy recommendation for everyday use.",
+        "reviewDate": "2024-05-30T00:00:00.000Z"
+      },
+      {
+        "id": "23-5",
+        "productId": "23",
+        "userName": "Mila Young",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/39.jpg",
+        "rating": 4,
+        "title": "Good fabric quality",
+        "comment": "Material feels durable and smooth. Color stayed consistent after multiple washes.",
+        "reviewDate": "2024-06-05T00:00:00.000Z"
+      },
+      {
+        "id": "23-6",
+        "productId": "23",
+        "userName": "Dylan West",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/40.jpg",
+        "rating": 5,
+        "title": "Great everyday chinos",
+        "comment": "I bought two pairs after trying the first one. Comfortable, clean look, and easy to style.",
+        "reviewDate": "2024-06-12T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Leather Weekender Duffle Bag",
+    "description": "Leather weekender travel bag with spacious main compartment, reinforced handles, and adjustable shoulder strap",
+    "price": 159.99,
+    "imageUrl": "https://images.unsplash.com/photo-1650542218150-5e59a58d4312?auto=format&w=400&q=80",
+    "rating": 4.7,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "accessories",
+    "reviews": [
+      {
+        "id": "24-1",
+        "productId": "24",
+        "userName": "Hazel Brooks",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/41.jpg",
+        "rating": 5,
+        "title": "Premium look and feel",
+        "comment": "Leather texture is excellent and hardware feels solid. Looks much more expensive than it is.",
+        "reviewDate": "2024-05-07T00:00:00.000Z"
+      },
+      {
+        "id": "24-2",
+        "productId": "24",
+        "userName": "Gavin Shaw",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/42.jpg",
+        "rating": 5,
+        "title": "Perfect carry-on size",
+        "comment": "Fits clothing for a short trip and slides easily into overhead bins. Great travel companion.",
+        "reviewDate": "2024-05-15T00:00:00.000Z"
+      },
+      {
+        "id": "24-3",
+        "productId": "24",
+        "userName": "Clara Finch",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/43.jpg",
+        "rating": 4,
+        "title": "Well-designed compartments",
+        "comment": "Dedicated shoe section keeps everything organized and clean. Interior lining is high quality.",
+        "reviewDate": "2024-05-23T00:00:00.000Z"
+      },
+      {
+        "id": "24-4",
+        "productId": "24",
+        "userName": "Jude Palmer",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/44.jpg",
+        "rating": 5,
+        "title": "Durable and stylish",
+        "comment": "Used it on multiple weekend flights and it still looks brand new. Stitching is very clean.",
+        "reviewDate": "2024-05-31T00:00:00.000Z"
+      },
+      {
+        "id": "24-5",
+        "productId": "24",
+        "userName": "Eva Stone",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/45.jpg",
+        "rating": 4,
+        "title": "Comfortable shoulder strap",
+        "comment": "Even when full, the padded strap is comfortable. Handles are sturdy and easy to grip.",
+        "reviewDate": "2024-06-06T00:00:00.000Z"
+      },
+      {
+        "id": "24-6",
+        "productId": "24",
+        "userName": "Silas Lowe",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/46.jpg",
+        "rating": 5,
+        "title": "Excellent weekender bag",
+        "comment": "Spacious, elegant, and practical. I now use it for both business and personal trips.",
+        "reviewDate": "2024-06-13T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Canvas Crossbody Sling Bag",
+    "description": "Compact crossbody sling bag with secure zip pockets and adjustable strap for daily essentials",
+    "price": 54.99,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1671028547420-a541b5a1243e?auto=format&w=400&q=80",
+    "rating": 4.4,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "accessories",
+    "reviews": [
+      {
+        "id": "25-1",
+        "productId": "25",
+        "userName": "Nina Cole",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/47.jpg",
+        "rating": 4,
+        "title": "Perfect city day bag",
+        "comment": "Carries phone, wallet, keys, and a small charger comfortably. Lightweight for daily use.",
+        "reviewDate": "2024-05-08T00:00:00.000Z"
+      },
+      {
+        "id": "25-2",
+        "productId": "25",
+        "userName": "Reid Foster",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/48.jpg",
+        "rating": 5,
+        "title": "Great compact storage",
+        "comment": "Pocket layout is practical and easy to access while walking. Zippers feel smooth and strong.",
+        "reviewDate": "2024-05-16T00:00:00.000Z"
+      },
+      {
+        "id": "25-3",
+        "productId": "25",
+        "userName": "Iris Ward",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/49.jpg",
+        "rating": 4,
+        "title": "Comfortable strap system",
+        "comment": "Shoulder strap adjusts quickly and stays in place. Good for commuting and short trips.",
+        "reviewDate": "2024-05-24T00:00:00.000Z"
+      },
+      {
+        "id": "25-4",
+        "productId": "25",
+        "userName": "Finn Hart",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/50.jpg",
+        "rating": 4,
+        "title": "Solid everyday accessory",
+        "comment": "Canvas material feels durable and easy to clean. Neutral design works with most outfits.",
+        "reviewDate": "2024-06-01T00:00:00.000Z"
+      },
+      {
+        "id": "25-5",
+        "productId": "25",
+        "userName": "Skye Bell",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/51.jpg",
+        "rating": 5,
+        "title": "Very practical design",
+        "comment": "The hidden pocket is useful for travel documents. Exactly the size I wanted.",
+        "reviewDate": "2024-06-07T00:00:00.000Z"
+      },
+      {
+        "id": "25-6",
+        "productId": "25",
+        "userName": "Mason Pierce",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/52.jpg",
+        "rating": 4,
+        "title": "Good quality for price",
+        "comment": "For under sixty dollars, this is a very good sling bag with thoughtful features.",
+        "reviewDate": "2024-06-14T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Electric Kettle 1.7L",
+    "description": "1.7L electric kettle with fast boiling system, auto shut-off safety, and ergonomic easy-pour handle",
+    "price": 69.99,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1663133646496-f74226a2b263?auto=format&w=400&q=80",
+    "rating": 4.6,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "home",
+    "reviews": [
+      {
+        "id": "26-1",
+        "productId": "26",
+        "userName": "Stella Young",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/53.jpg",
+        "rating": 5,
+        "title": "Boils water very quickly",
+        "comment": "Significantly faster than my old kettle. Perfect for tea, coffee, and quick cooking tasks.",
+        "reviewDate": "2024-05-09T00:00:00.000Z"
+      },
+      {
+        "id": "26-2",
+        "productId": "26",
+        "userName": "Owen Miles",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/54.jpg",
+        "rating": 4,
+        "title": "Useful temperature settings",
+        "comment": "Different temperature presets are great for green tea and pour-over coffee.",
+        "reviewDate": "2024-05-17T00:00:00.000Z"
+      },
+      {
+        "id": "26-3",
+        "productId": "26",
+        "userName": "Piper Wells",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/55.jpg",
+        "rating": 5,
+        "title": "Clean and modern design",
+        "comment": "Looks sleek on the counter and feels sturdy in hand. Lid opens smoothly.",
+        "reviewDate": "2024-05-25T00:00:00.000Z"
+      },
+      {
+        "id": "26-4",
+        "productId": "26",
+        "userName": "Roman Kent",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/56.jpg",
+        "rating": 4,
+        "title": "Great for daily use",
+        "comment": "I use it multiple times per day and performance has been consistent. Easy to clean interior.",
+        "reviewDate": "2024-06-02T00:00:00.000Z"
+      },
+      {
+        "id": "26-5",
+        "productId": "26",
+        "userName": "Luna Hart",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/57.jpg",
+        "rating": 5,
+        "title": "Safe and convenient",
+        "comment": "Auto shut-off gives peace of mind. Handle stays cool and pour is controlled.",
+        "reviewDate": "2024-06-08T00:00:00.000Z"
+      },
+      {
+        "id": "26-6",
+        "productId": "26",
+        "userName": "Ezra Cole",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/58.jpg",
+        "rating": 5,
+        "title": "Excellent kettle overall",
+        "comment": "Great mix of speed, quality, and smart features. Highly recommended for tea lovers.",
+        "reviewDate": "2024-06-15T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Memory Foam Bed Pillow",
+    "description": "Ergonomic memory foam bed pillow with breathable cover that supports neck alignment for deeper sleep",
+    "price": 59.99,
+    "imageUrl": "https://images.unsplash.com/photo-1600414428640-f78a67c2aa3b?auto=format&w=400&q=80",
+    "rating": 4.5,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "home",
+    "reviews": [
+      {
+        "id": "27-1",
+        "productId": "27",
+        "userName": "Ava Snow",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/59.jpg",
+        "rating": 5,
+        "title": "Much better neck support",
+        "comment": "I wake up with less neck stiffness since switching to this pillow. Support is excellent.",
+        "reviewDate": "2024-05-10T00:00:00.000Z"
+      },
+      {
+        "id": "27-2",
+        "productId": "27",
+        "userName": "Luca Price",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/60.jpg",
+        "rating": 4,
+        "title": "Comfortable firmness level",
+        "comment": "Firm enough for support but still soft on pressure points. Good balance for side sleepers.",
+        "reviewDate": "2024-05-18T00:00:00.000Z"
+      },
+      {
+        "id": "27-3",
+        "productId": "27",
+        "userName": "Maya Fox",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/61.jpg",
+        "rating": 4,
+        "title": "Breathable and cool",
+        "comment": "Cover fabric feels breathable and does not trap heat overnight. Good for warm climates.",
+        "reviewDate": "2024-05-26T00:00:00.000Z"
+      },
+      {
+        "id": "27-4",
+        "productId": "27",
+        "userName": "Jasper Lane",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/62.jpg",
+        "rating": 5,
+        "title": "Great sleep improvement",
+        "comment": "Noticeably better sleep quality after a week. Shape remains consistent night after night.",
+        "reviewDate": "2024-06-03T00:00:00.000Z"
+      },
+      {
+        "id": "27-5",
+        "productId": "27",
+        "userName": "Elena Hart",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/63.jpg",
+        "rating": 4,
+        "title": "Good quality materials",
+        "comment": "Foam rebounds well and the removable cover is easy to wash. Durable so far.",
+        "reviewDate": "2024-06-09T00:00:00.000Z"
+      },
+      {
+        "id": "27-6",
+        "productId": "27",
+        "userName": "Theo Park",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/64.jpg",
+        "rating": 5,
+        "title": "Highly recommended pillow",
+        "comment": "I tried several memory foam pillows and this is the best one for comfort and support.",
+        "reviewDate": "2024-06-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Bedside Table Lamp",
+    "description": "Minimalist bedside table lamp with warm dimmable light and touch-sensitive base control",
+    "price": 44.99,
+    "imageUrl": "https://images.unsplash.com/photo-1570974802254-4b0ad1a755f5?auto=format&w=400&q=80",
+    "rating": 4.6,
+    "reviewCount": 6,
+    "inStock": true,
+    "category": "home",
+    "reviews": [
+      {
+        "id": "28-1",
+        "productId": "28",
+        "userName": "Ivy Stone",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/65.jpg",
+        "rating": 5,
+        "title": "Perfect bedside lighting",
+        "comment": "Warm light is ideal for reading at night without being harsh. Touch controls are responsive.",
+        "reviewDate": "2024-05-11T00:00:00.000Z"
+      },
+      {
+        "id": "28-2",
+        "productId": "28",
+        "userName": "Miles Reed",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/66.jpg",
+        "rating": 4,
+        "title": "Great minimalist design",
+        "comment": "Looks clean and modern on my nightstand. Build quality is impressive for the price.",
+        "reviewDate": "2024-05-19T00:00:00.000Z"
+      },
+      {
+        "id": "28-3",
+        "productId": "28",
+        "userName": "Nora Wade",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/67.jpg",
+        "rating": 5,
+        "title": "Useful dimming levels",
+        "comment": "Dimming options are practical for evening reading and late-night ambient light.",
+        "reviewDate": "2024-05-27T00:00:00.000Z"
+      },
+      {
+        "id": "28-4",
+        "productId": "28",
+        "userName": "Leo Finch",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/68.jpg",
+        "rating": 4,
+        "title": "Easy setup and use",
+        "comment": "Unboxed and working in two minutes. The touch base is intuitive and convenient.",
+        "reviewDate": "2024-06-04T00:00:00.000Z"
+      },
+      {
+        "id": "28-5",
+        "productId": "28",
+        "userName": "Ruby Quinn",
+        "userImageUrl": "https://randomuser.me/api/portraits/women/69.jpg",
+        "rating": 5,
+        "title": "Exactly what I needed",
+        "comment": "Compact size and soft light make it perfect for a small bedroom setup.",
+        "reviewDate": "2024-06-10T00:00:00.000Z"
+      },
+      {
+        "id": "28-6",
+        "productId": "28",
+        "userName": "Cole Grant",
+        "userImageUrl": "https://randomuser.me/api/portraits/men/70.jpg",
+        "rating": 5,
+        "title": "Great value lamp",
+        "comment": "Reliable, stylish, and functional. I ended up buying a second one for the guest room.",
+        "reviewDate": "2024-06-17T00:00:00.000Z"
+      }
+    ]
   }
 ]
