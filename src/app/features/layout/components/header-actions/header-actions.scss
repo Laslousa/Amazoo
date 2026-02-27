@@ -1,0 +1,19 @@
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+:host ::ng-deep .header-actions button[matIconButton] {
+  border: 1px solid rgba(148, 163, 184, 0.34);
+  background: rgba(255, 255, 255, 0.54);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+}
+
+:host ::ng-deep .header-actions button[matIconButton]:hover {
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.16);
+}

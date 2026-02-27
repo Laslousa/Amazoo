@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  background: transparent;
 }
 
 .app-header {
@@ -15,13 +16,42 @@
 .layout-container {
   flex: 1;
   min-height: 0;
+  padding: 1rem;
+  padding-top: 0.75rem;
+  --mat-sidenav-container-divider-color: transparent;
+}
+
+:host ::ng-deep .layout-container .mat-drawer-side {
+  border-right: none !important;
+}
+
+:host ::ng-deep .layout-container .mat-drawer-content {
+  border-left: none !important;
 }
 
 .layout-sidebar {
-  width: 260px;
+  width: 286px;
+  background: transparent;
 }
 
 .layout-main {
   height: 100%;
   overflow: auto;
+  border: 1px solid var(--ui-border-soft);
+  border-left-color: transparent;
+  background: var(--ui-surface);
+  backdrop-filter: blur(8px) saturate(110%);
+  box-shadow: var(--ui-shadow-soft);
+  border-radius: 16px;
+}
+
+@media (max-width: 1023px) {
+  .layout-container {
+    padding: 0.75rem;
+  }
+
+  .layout-main {
+    border-radius: 14px;
+    border-left-color: var(--ui-border-soft);
+  }
 }

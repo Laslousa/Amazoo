@@ -34,9 +34,10 @@
       </mat-form-field>
     </div>
 
-    <div class="flex gap-4">
+    <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
       <button 
         matButton="filled" 
+        class="w-full sm:w-auto"
         type="submit" 
         [disabled]="store.loading()"
       >
@@ -45,6 +46,7 @@
 
       <button 
         matButton="outlined" 
+        class="w-full sm:w-auto"
         type="button" 
         (click)="store.hideWriteReview()"
       >

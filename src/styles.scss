@@ -28,6 +28,16 @@ html {
   );
 }
 
+:root {
+  --ui-bg: #f2f6fb;
+  --ui-surface: rgba(255, 255, 255, 0.72);
+  --ui-surface-strong: rgba(255, 255, 255, 0.88);
+  --ui-border-soft: rgba(148, 163, 184, 0.26);
+  --ui-text-muted: #64748b;
+  --ui-shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --ui-shadow-hover: 0 18px 40px rgba(15, 23, 42, 0.14);
+}
+
 body {
   // Default the application to a light color theme. This can be changed to
   // `dark` to enable the dark color theme, or to `light dark` to defer to the
@@ -67,34 +77,49 @@ body {
     BlinkMacSystemFont,
     'Segoe UI',
     sans-serif;
+  background:
+    radial-gradient(circle at 8% 8%, rgba(14, 165, 233, 0.12) 0, transparent 32%),
+    radial-gradient(circle at 92% 16%, rgba(56, 189, 248, 0.1) 0, transparent 30%),
+    var(--ui-bg);
+  line-height: 1.45;
 }
 
 .elevated {
-  box-shadow: var(--mat-sys-level2);
+  box-shadow: var(--ui-shadow-soft);
 }
 
 button[matButton] {
   @include mat.button-overrides(
     (
-      filled-container-shape: 6px,
-      outlined-container-shape: 6px,
-      text-container-shape: 6px,
-      protected-container-shape: 6px,
-      tonal-container-shape: 6px,
-      filled-horizontal-padding: 12px,
-      outlined-horizontal-padding: 12px,
-      text-horizontal-padding: 12px,
-      protected-horizontal-padding: 12px,
-      tonal-horizontal-padding: 12px,
+      filled-container-shape: 10px,
+      outlined-container-shape: 10px,
+      text-container-shape: 10px,
+      protected-container-shape: 10px,
+      tonal-container-shape: 10px,
+      filled-horizontal-padding: 14px,
+      outlined-horizontal-padding: 14px,
+      text-horizontal-padding: 14px,
+      protected-horizontal-padding: 14px,
+      tonal-horizontal-padding: 14px,
       filled-icon-spacing: 0px,
       filled-icon-offset: 1px,
-      filled-container-height: 36px,
-      outlined-container-height: 36px,
-      text-container-height: 36px,
-      protected-container-height: 36px,
-      tonal-container-height: 36px,
+      filled-container-height: 38px,
+      outlined-container-height: 38px,
+      text-container-height: 38px,
+      protected-container-height: 38px,
+      tonal-container-height: 38px,
     )
   );
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    filter 0.18s ease;
+}
+
+button[matButton]:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.01);
 }
 
 button[matButton='outlined'].danger {
@@ -110,9 +135,19 @@ button[matButton='outlined'].danger {
 button[matIconButton] {
   @include mat.icon-button-overrides(
     (
-      container-shape: 6px,
+      container-shape: 10px,
     )
   );
+
+  transition:
+    transform 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+button[matIconButton]:hover {
+  transform: translateY(-1px);
+  background: rgba(148, 163, 184, 0.14);
 }
 
 button[matIconButton].danger {
@@ -157,9 +192,9 @@ mat-form-field {
 mat-sidenav {
   @include mat.sidenav-overrides(
     (
-      container-width: 250px,
+      container-width: 280px,
       container-shape: 0px,
-      container-background-color: white,
+      container-background-color: transparent,
       container-divider-color: var(--mat-sys-outline-variant),
     )
   );
@@ -181,8 +216,8 @@ mat-sidenav {
 //Responsive grid
 .responsive-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.35rem;
 }
 
 @media (max-width: 640px) {

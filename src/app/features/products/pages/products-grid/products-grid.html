@@ -1,11 +1,11 @@
-<section class="products-page bg-gray-100 p-4 md:p-6">
-  <h1 class="text-2xl font-bold text-gray-900 mb-1">
-    {{ category() | titlecase }}
-  </h1>
-  <p class="text-base text-gray-600 mb-6">{{ store.filteredProducts().length }} products found</p>
+<section class="products-page">
+  <div class="products-header">
+    <h1 class="products-title">{{ category() | titlecase }}</h1>
+    <p class="products-count">{{ store.filteredProducts().length }} products found</p>
+  </div>
 
   @if (store.filteredProducts().length === 0) {
-    <div class="bg-white rounded-xl p-8 text-center text-gray-600">
+    <div class="empty-state">
       No products match your search.
     </div>
   } @else {

@@ -1,3 +1,40 @@
 .products-page {
   min-height: 100%;
+  padding: 1.4rem;
+}
+
+.products-header {
+  margin-bottom: 1.35rem;
+}
+
+.products-title {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.products-count {
+  margin: 0.35rem 0 0;
+  color: var(--ui-text-muted);
+}
+
+.empty-state {
+  border: 1px solid var(--ui-border-soft);
+  background: var(--ui-surface-strong);
+  border-radius: 14px;
+  padding: 2.2rem 1rem;
+  text-align: center;
+  color: var(--ui-text-muted);
+  box-shadow: var(--ui-shadow-soft);
+}
+
+@media (max-width: 640px) {
+  .products-page {
+    padding: 1rem;
+  }
+
+  .products-title {
+    font-size: 1.45rem;
+  }
 }
