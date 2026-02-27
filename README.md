@@ -13,6 +13,8 @@ This project demonstrates scalable frontend architecture, centralized state mana
 - Rating & stock indicators
 - Responsive product grid
 
+![Home]("public/screenshots/Home")
+
 ### 📦 Product Detail
 
 - Dynamic rating & reviews
