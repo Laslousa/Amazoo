@@ -10,5 +10,9 @@ export class Toaster {
   success(message: string) {
     this.toaster.success(message)
   }
+
+  error(message: string) {
+    this.toaster.error(message)
+  }
 }
 

@@ -24,6 +24,7 @@
   "private": true,
   "packageManager": "npm@11.5.2",
   "dependencies": {
+    "@angular-architects/ngrx-toolkit": "^21.0.1",
     "@angular/cdk": "~21.1.5",
     "@angular/common": "^21.1.0",
     "@angular/compiler": "^21.1.0",

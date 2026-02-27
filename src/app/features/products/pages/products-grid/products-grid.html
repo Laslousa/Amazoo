@@ -22,15 +22,17 @@
   </mat-sidenav>
   <mat-sidenav-content class="bg-gray-100 p-6 h-full">
     <h1 class="text-2xl font-bold text-gray-900 mb-1">
-      {{ category() | titlecase }} 
+      {{ category() | titlecase }}
     </h1>
-    <p class="text-base text-gray-600 mb-6">
-      {{ store.filteredProducts().length }} products found
-    </p>
+    <p class="text-base text-gray-600 mb-6">{{ store.filteredProducts().length }} products found</p>
     <div class="responsive-grid">
       @for (product of store.filteredProducts(); track product.id) {
         <app-product-card [product]="product">
-          <app-toggle-wishlist-button [product]="product" class="!absolute z-10 top-3 right-3"></app-toggle-wishlist-button>
+          <app-toggle-wishlist-button
+            [product]="product"
+            class="!absolute z-10 top-3 right-3 !bg-white shadow-md rounded-md transition-all duration-200 hover:scale-110 hover:shadow-lg"
+            [style.view-transition-name]="'wishlist-button-' + product.id"
+          ></app-toggle-wishlist-button>
         </app-product-card>
       }
     </div>
