@@ -1,4 +1,4 @@
-# 🛍️ Amazoo — Angular Signal-Driven E-Commerce
+# 🛍️ Amazoo — Angular Signal-Driven E-Commerce App
 
 A modern e-commerce frontend built with Angular 21, powered by Signals and designed with Material 3 + Tailwind.
 
@@ -87,7 +87,7 @@ Flow:
 ## 🛠️ Setup
 
 ```bash
-git clone <repo>
+git clone https://github.com/Laslousa/Amazoo.git
 cd ecommerce-app
 npm install
 npm start
