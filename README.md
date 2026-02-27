@@ -13,12 +13,16 @@ This project demonstrates scalable frontend architecture, centralized state mana
 - Rating & stock indicators
 - Responsive product grid
 
+<img src="public/screenshots/Home.png" alt="Home" width="600"/>
+
 ### 📦 Product Detail
 
 - Dynamic rating & reviews
 - Quantity selector
 - Add to cart / wishlist
 - Review submission (authenticated flow)
+
+<img src="public/screenshots/Product-detail.png" alt="Product-detail" width="600"/>
 
 ### 🛒 Cart & Checkout
 
@@ -27,11 +31,16 @@ This project demonstrates scalable frontend architecture, centralized state mana
 - Checkout gating via authentication
 - Order confirmation flow
 
+<img src="public/screenshots/Cart.png" alt="Cart" width="600"/>
+<img src="public/screenshots/Checkout.png" alt="Checkout" width="600"/>
+
 ### ❤️ Wishlist
 
 - Add / remove items
 - Move to cart
 - Persistent state (local storage)
+
+<img src="public/screenshots/Wishlist.png" alt="Wishlist" width="600"/>
 
 ## 🧠 Architecture Overview
 
