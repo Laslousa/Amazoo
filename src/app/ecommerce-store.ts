@@ -22,10 +22,12 @@ import { AddReviewParams, UserReview } from './models/user-review';
 export type EcommerceState = {
   products: Product[];
   category: string;
+  searchTerm: string;
   wishlistItems: Product[];
   cartItems: CartItem[];
   user: User | undefined;
   loading: boolean;
+  sidebarOpen: boolean;
   selectedProductId: string | undefined;
   writeReview: boolean;
 };
@@ -988,10 +990,12 @@ const initialState: EcommerceState = {
     },
   ],
   category: 'all',
+  searchTerm: '',
   wishlistItems: [],
   cartItems: [],
   user: undefined,
   loading: false,
+  sidebarOpen: true,
   selectedProductId: undefined,
   writeReview: false,
 };
@@ -1008,12 +1012,24 @@ export const EcommerceStore = signalStore(
     },
     withLocalStorage(),
   ),
-  withComputed(({ category, products, wishlistItems, cartItems, selectedProductId }) => ({
+  withComputed(({ category, products, wishlistItems, cartItems, selectedProductId, searchTerm }) => ({
     filteredProducts: computed(() => {
       const currentCategory = category();
-      if (currentCategory === 'all') return products();
-      return products().filter(
-        (product) => product.category.toLowerCase() === currentCategory.toLowerCase(),
+      const normalizedSearchTerm = searchTerm().trim().toLowerCase();
+
+      const productsByCategory =
+        currentCategory === 'all'
+          ? products()
+          : products().filter(
+              (product) => product.category.toLowerCase() === currentCategory.toLowerCase(),
+            );
+
+      if (!normalizedSearchTerm) {
+        return productsByCategory;
+      }
+
+      return productsByCategory.filter((product) =>
+        `${product.name} ${product.description}`.toLowerCase().includes(normalizedSearchTerm),
       );
     }),
     wishlistCount: computed(() => wishlistItems().length),
@@ -1025,6 +1041,22 @@ export const EcommerceStore = signalStore(
       setCategory: signalMethod<string>((category: string) => {
         patchState(store, { category });
       }),
+
+      setSearchTerm: signalMethod<string>((searchTerm: string) => {
+        patchState(store, { searchTerm });
+      }),
+
+      toggleSidebar: () => {
+        patchState(store, { sidebarOpen: !store.sidebarOpen() });
+      },
+
+      openSidebar: () => {
+        patchState(store, { sidebarOpen: true });
+      },
+
+      closeSidebar: () => {
+        patchState(store, { sidebarOpen: false });
+      },
 
       setProductId: signalMethod<string>((productId: string) => {
         patchState(store, { selectedProductId: productId });

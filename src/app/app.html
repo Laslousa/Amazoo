@@ -1,4 +1,18 @@
-<app-header class="z-10"></app-header>
-<div class="h-[calc(100vh-64px)] overflow-auto">
-    <router-outlet></router-outlet>
+<div class="app-shell">
+  <app-header class="app-header"></app-header>
+
+  <mat-sidenav-container class="layout-container">
+    <mat-sidenav
+      class="layout-sidebar"
+      [mode]="isMobile() ? 'over' : 'side'"
+      [opened]="store.sidebarOpen()"
+      (backdropClick)="store.closeSidebar()"
+    >
+      <app-sidebar [mobile]="isMobile()"></app-sidebar>
+    </mat-sidenav>
+
+    <mat-sidenav-content class="layout-main">
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 </div>

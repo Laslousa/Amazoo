@@ -1,4 +1,4 @@
-<div class="flex items-center gap-2">
+<div class="flex items-center gap-1 sm:gap-2 shrink-0">
   <button
     matIconButton
     routerLink="/wishlist"
@@ -35,7 +35,14 @@
       </button>
     </mat-menu>
   } @else {
-    <button matButton (click)="openSignInDialog()">Sign In</button>
-    <button matButton="filled" (click)="openSignUpDialog()">Sign Up</button>
+    <button matButton class="hidden sm:inline-flex" (click)="openSignInDialog()">Sign In</button>
+    <button matButton="filled" class="hidden sm:inline-flex" (click)="openSignUpDialog()">Sign Up</button>
+
+    <button matIconButton class="sm:hidden" aria-label="Sign in" (click)="openSignInDialog()">
+      <mat-icon>login</mat-icon>
+    </button>
+    <button matIconButton class="sm:hidden" aria-label="Sign up" (click)="openSignUpDialog()">
+      <mat-icon>person_add</mat-icon>
+    </button>
   }
 </div>

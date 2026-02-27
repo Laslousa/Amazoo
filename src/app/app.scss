@@ -1,0 +1,27 @@
+.app-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-shrink: 0;
+}
+
+.layout-container {
+  flex: 1;
+  min-height: 0;
+}
+
+.layout-sidebar {
+  width: 260px;
+}
+
+.layout-main {
+  height: 100%;
+  overflow: auto;
+}

@@ -1,30 +1,14 @@
-<mat-sidenav-container>
-  <mat-sidenav mode="side" opened="true">
-    <div class="p-6">
-      <h2 class="text-lg text-gray-900">Categories</h2>
-      <mat-nav-list>
-        @for (cat of categories(); track cat) {
-          <mat-list-item
-            [activated]="cat === category()"
-            class="my-2"
-            [routerLink]="['/products', cat]"
-          >
-            <span
-              matListItemTitle
-              class="font-medium"
-              [class]="cat === category() ? '!text-white' : null"
-              >{{ cat | titlecase }}</span
-            >
-          </mat-list-item>
-        }
-      </mat-nav-list>
+<section class="products-page bg-gray-100 p-4 md:p-6">
+  <h1 class="text-2xl font-bold text-gray-900 mb-1">
+    {{ category() | titlecase }}
+  </h1>
+  <p class="text-base text-gray-600 mb-6">{{ store.filteredProducts().length }} products found</p>
+
+  @if (store.filteredProducts().length === 0) {
+    <div class="bg-white rounded-xl p-8 text-center text-gray-600">
+      No products match your search.
     </div>
-  </mat-sidenav>
-  <mat-sidenav-content class="bg-gray-100 p-6 h-full">
-    <h1 class="text-2xl font-bold text-gray-900 mb-1">
-      {{ category() | titlecase }}
-    </h1>
-    <p class="text-base text-gray-600 mb-6">{{ store.filteredProducts().length }} products found</p>
+  } @else {
     <div class="responsive-grid">
       @for (product of store.filteredProducts(); track product.id) {
         <app-product-card [product]="product">
@@ -36,5 +20,5 @@
         </app-product-card>
       }
     </div>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+  }
+</section>
